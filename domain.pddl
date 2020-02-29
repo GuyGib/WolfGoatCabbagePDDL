@@ -13,7 +13,6 @@
   )
 
   ; Define the relations
-  ; Question mark prefix denotes free variables
 	(:predicates
 		(on ?x ?bank)
 		(land ?x)
@@ -24,7 +23,7 @@
 		(sameLand ?from ?to)
 		(close ?from ?to)
 	)
-  ; Define a transition to move a disc from one place to another
+	
   	(:action move-Goat
 		:parameters (?x ?y ?z  ?boat ?from ?to)
 		:precondition
